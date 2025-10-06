@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinéfolis Cinemas - Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1 class="logo">sinéfolis</h1>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="../Landing Page/index (1).html" class="nav-link" data-page="home">Home</a>
+                <a href="../Promo Page/index (1).html" class="nav-link" data-page="promo">Promo</a>
+                <a href="../Now Showing Page/index (1).html" class="nav-link" data-page="now-showing">Now Showing</a>
+                <a href="../Cinema Page/index (1).html" class="nav-link" data-page="cinemas">Cinemas</a>
+                <a href="#feedback" class="nav-link active" data-page="feedback">Feedback</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Share Your Feedback</h1>
+            <p class="page-subtitle">We value your opinion to improve our services</p>
+            
+            <div class="form-container">
+                <form id="feedbackForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+                        <span class="error-message" id="fullNameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="text" id="age" name="age" placeholder="Enter your age">
+                        <span class="error-message" id="ageError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="location">Cinema Location</label>
+                        <select id="location" name="location">
+                            <option value="">Select a location</option>
+                            <option value="Pakuwon Mall Jogja">Pakuwon Mall Jogja</option>
+                            <option value="Summarecon Bekasi">Summarecon Bekasi</option>
+                            <option value="Plaza Indonesia">Plaza Indonesia</option>
+                            <option value="Mal Kelapa Gading">Mal Kelapa Gading</option>
+                            <option value="Trans Studio Bandung">Trans Studio Bandung</option>
+                            <option value="Tunjungan Plaza Surabaya">Tunjungan Plaza Surabaya</option>
+                        </select>
+                        <span class="error-message" id="locationError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="comment">Comment</label>
+                        <textarea id="comment" name="comment" rows="5" placeholder="Enter your feedback or comments"></textarea>
+                        <span class="error-message" id="commentError"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Submit Feedback</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Sinéfolis Cinemas. All rights reserved.</p>
+    <p class="footer-links">
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

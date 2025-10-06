@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinéfolis Cinemas - Our Locations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1 class="logo">sinéfolis</h1>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="../Landing Page/index (1).html" class="nav-link" data-page="home">Home</a>
+                <a href="../Promo Page/index (1).html" class="nav-link" data-page="promo">Promo</a>
+                <a href="../Now Showing Page/index (1).html" class="nav-link" data-page="now-showing">Now Showing</a>
+                <a href="#cinemas" class="nav-link active" data-page="cinemas">Cinemas</a>
+                <a href="../Feedback Page/index (1).html" class="nav-link" data-page="feedback">Feedback</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Explore our cinemas</h1>
+            <p class="page-subtitle">Find the nearest Sinéfolis cinema location for your premium movie experience</p>
+            
+            <!-- Cinema Cards Grid -->
+            <div class="cinemas-grid">
+                <!-- Cinema Card 1 -->
+                <div class="cinema-card" data-name="Pakuwon Mall Jogja" data-location="Jl. Ring Road Utara, Condongcatur, Depok, Sleman, Yogyakarta 55283">
+                    <div class="cinema-image">
+                        <img src="../Image/pakuwon jogja.jpg" alt="Pakuwon Mall Jogja Cinema">
+                    </div>
+                    <div class="cinema-info">
+                        <h2 class="cinema-name">Pakuwon Mall Jogja</h2>
+                        <div class="cinema-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Jl. Ring Road Utara, Condongcatur<br>Depok, Sleman, Yogyakarta 55283</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cinema Card 2 -->
+                <div class="cinema-card" data-name="Summarecon Bekasi" data-location="Jl. Bulevar Ahmad Yani, Marga Mulya, Bekasi Utara, Bekasi 17142">
+                    <div class="cinema-image">
+                        <img src="../Image/smb-image-1.jpg" alt="Summarecon Bekasi Cinema">
+                    </div>
+                    <div class="cinema-info">
+                        <h2 class="cinema-name">Summarecon Bekasi</h2>
+                        <div class="cinema-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Jl. Bulevar Ahmad Yani, Marga Mulya<br>Bekasi Utara, Bekasi 17142</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Sinéfolis Cinemas. All rights reserved.</p>
+    <p class="footer-links">
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

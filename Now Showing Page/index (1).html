@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinéfolis Cinemas - Now Showing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1 class="logo">sinéfolis</h1>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="../Landing Page/index (1).html" class="nav-link" data-page="home">Home</a>
+                <a href="../Promo Page/index (1).html" class="nav-link" data-page="promo">Promo</a>
+                <a href="#now-showing" class="nav-link active" data-page="now-showing">Now Showing</a>
+                <a href="../Cinema Page/index (1).html" class="nav-link" data-page="cinemas">Cinemas</a>
+                <a href="../Feedback Page/index (1).html" class="nav-link" data-page="feedback">Feedback</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Now Showing</h1>
+            <p class="page-subtitle">Watch the movie that is currently showing</p>
+            
+            <!-- Movie Cards Grid -->
+            <div class="movies-grid">
+                <!-- Movie Card 1 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="../Image/Dune-Part-Two.jpg" alt="Dune: Part Two Poster">
+                    </div>
+                    <div class="movie-info">
+                        <h2 class="movie-title">Dune: Part Two</h2>
+                        <p class="movie-description">Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.</p>
+                        <div class="showtimes">
+                            <button class="showtime-btn" data-movie="Dune: Part Two" data-time="11.00">11.00</button>
+                            <button class="showtime-btn" data-movie="Dune: Part Two" data-time="13.15">13.15</button>
+                            <button class="showtime-btn" data-movie="Dune: Part Two" data-time="15.30">15.30</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 2 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="../Image/Oppie.jpg" alt="Oppenheimer Poster">
+                    </div>
+                    <div class="movie-info">
+                        <h2 class="movie-title">Oppenheimer</h2>
+                        <p class="movie-description">The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.</p>
+                        <div class="showtimes">
+                            <button class="showtime-btn" data-movie="Oppenheimer" data-time="11.00">11.00</button>
+                            <button class="showtime-btn" data-movie="Oppenheimer" data-time="13.15">13.15</button>
+                            <button class="showtime-btn" data-movie="Oppenheimer" data-time="15.30">15.30</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 3 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="../Image/Spiderman.jpeg" alt="Spider-Man: Across the Spider-Verse Poster">
+                    </div>
+                    <div class="movie-info">
+                        <h2 class="movie-title">Spider-Man: Across the Spider-Verse</h2>
+                        <p class="movie-description">Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People.</p>
+                        <div class="showtimes">
+                            <button class="showtime-btn" data-movie="Spider-Man: Across the Spider-Verse" data-time="11.00">11.00</button>
+                            <button class="showtime-btn" data-movie="Spider-Man: Across the Spider-Verse" data-time="13.15">13.15</button>
+                            <button class="showtime-btn" data-movie="Spider-Man: Across the Spider-Verse" data-time="15.30">15.30</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Movie Card 4 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="../Image/The batman.jpg" alt="The Batman Poster">
+                    </div>
+                    <div class="movie-info">
+                        <h2 class="movie-title">The Batman</h2>
+                        <p class="movie-description">Batman ventures into Gotham City's underworld when a sadistic killer leaves behind a trail of cryptic clues.</p>
+                        <div class="showtimes">
+                            <button class="showtime-btn" data-movie="The Batman" data-time="11.00">11.00</button>
+                            <button class="showtime-btn" data-movie="The Batman" data-time="13.15">13.15</button>
+                            <button class="showtime-btn" data-movie="The Batman" data-time="15.30">15.30</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Sinéfolis Cinemas. All rights reserved.</p>
+    <p class="footer-links">
+      <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
